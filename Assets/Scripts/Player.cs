@@ -106,7 +106,7 @@ public class Player : MonoBehaviour
     {
         // Handle player death (e.g., disable controls, play death animation)
         animator.SetTrigger("Death");
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene"); // Reload the scene or handle game over
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0); // Reload the scene or handle game over
         // Optionally, disable player controls here
     }
 }
